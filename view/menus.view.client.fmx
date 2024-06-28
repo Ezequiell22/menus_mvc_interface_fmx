@@ -1,0 +1,29 @@
+object pageClient1: TpageClient1
+  Left = 0
+  Top = 0
+  Caption = 'pageProduct'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Trimming = None
+    Text = 'Client'
+    TabOrder = 0
+  end
+  object Layout1: TLayout
+    Align = Left
+    Position.Y = 17.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 463.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+end
